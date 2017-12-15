@@ -1,0 +1,19 @@
+body {
+	background-image: url("../images/snow_texture1558.jpg");
+}
+
+.item-buttons {
+	margin: 10px;
+}
+
+.resultGif {
+	margin: 10px;
+}
+
+.jumbotron {
+	background-color: #ADD8E6;
+}
+
+h1, .lead {
+	text-align: center;
+}
