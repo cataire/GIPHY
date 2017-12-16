@@ -116,10 +116,16 @@ $(document.body).on("click", ".resultGif", function() {
 $(document.body).on("click", ".input-button", function(event){
 	event.preventDefault();
 	var getInput = $(".search-input").val().trim();
+	console.log(getInput);
+	
+	if (getInput !== "") {
+
 	$(".search-input").val("");
 	topics.push(getInput);
 	createBtns();
 	getGifs();
+	}
+
 });
 
 
